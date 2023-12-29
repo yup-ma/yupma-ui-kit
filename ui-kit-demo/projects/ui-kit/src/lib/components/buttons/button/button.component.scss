@@ -1,0 +1,141 @@
+@use '@yupma/ui-styles/lib/scss/variables' as *;
+
+.action-btn {
+
+    &.ym-btn-default{
+        padding-left: $ym-spacing-scale-5;
+        padding-right: $ym-spacing-scale-5;
+        border-radius: $ym-border-radius-3;
+        border: solid 1px $gray-500;
+
+        &:hover:not([disabled]) {
+            background-color: $gray-50;
+        }
+    }
+
+    &.ym-btn-primary,
+    &.ym-btn-secondary,
+    &.ym-btn-confirm,
+    &.ym-btn-danger,
+    &.ym-btn-info,
+    &.ym-btn-warning{
+        padding-left: $ym-spacing-scale-5;
+        padding-right: $ym-spacing-scale-5;
+        border-radius: $ym-border-radius-3;
+        color: $white;
+        border: solid 1px $gray-10;
+    }
+
+    &.ym-btn-primary {
+        background-color: $brand;
+        border-color: $brand;
+
+        &:hover:not([disabled]) {
+            background-color: $blue-400;
+            border-color: $blue-400;
+        }
+    }
+
+    &.ym-btn-secondary {
+        color: $black-normal;
+        background-color: $secondary;
+        border-color: $black-normal;
+
+        &:hover:not([disabled]) {
+            background-color: $gray-10;
+            border-color: $black-normal;
+        }
+    }
+
+    &.ym-btn-confirm {
+        background-color: $success;
+        border-color: $success;
+
+        &:hover:not([disabled]) {
+            background-color: $green-400;
+            border-color: $green-400;
+        }
+    }
+
+    &.ym-btn-danger {
+        background-color: $red-500;
+        border-color: $red-500;
+
+        &:hover:not([disabled]) {
+            background-color: $red-400;
+            border-color: $red-400;
+        }
+    }
+
+    &.ym-btn-info {
+        background-color: $info;
+        border-color: $info;
+
+        &:hover:not([disabled]) {
+            background-color: $blue-400;
+            border-color: $blue-400;
+        }
+    }
+
+    &.ym-btn-warning {
+        background-color: $warning;
+        border-color: $warning;
+
+        &:hover:not([disabled]) {
+            background-color: $orange-300;
+            border-color: $orange-300;
+        }
+    }
+
+    &.ym-btn-link {
+        padding: 0;
+        background-color: $transparent-rgba;
+
+        & .icon {
+            margin-right: $ym-spacing-scale-2;
+        }
+
+        & .text {
+            line-height: $ym-line-height-20;
+            text-decoration: underline;
+        }
+    }
+
+    &.ym-btn-ghost {
+        & .text {
+            line-height: $ym-line-height-16;
+            text-decoration: underline;
+        }
+
+        &:hover:not([disabled]) {
+            background-color: $gray-50;
+        }
+    }
+
+    &.ym-icon-last {
+        & .icon {
+            margin-left: $ym-spacing-scale-3;
+            margin-right: 0;
+            order: 1;
+        }
+
+        &.ym-btn-link {
+            & .icon {
+                margin-left: $ym-spacing-scale-2;
+            }
+        }
+    }
+
+    &:hover:not([disabled]) {
+        border-radius: $ym-border-radius-3;
+
+        & .text {
+            text-decoration: underline;
+        }
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
