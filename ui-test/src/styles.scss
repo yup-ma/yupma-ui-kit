@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+$success: red;
+@import '@yupma/ui-styles/lib/scss/yupma_ui';
+
+body{
+    font-family: $font-family-regular;
+}

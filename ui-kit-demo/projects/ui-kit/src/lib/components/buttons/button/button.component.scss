@@ -15,7 +15,7 @@
 
     &.ym-btn-primary,
     &.ym-btn-secondary,
-    &.ym-btn-confirm,
+    &.ym-btn-success,
     &.ym-btn-danger,
     &.ym-btn-info,
     &.ym-btn-warning{
@@ -47,7 +47,7 @@
         }
     }
 
-    &.ym-btn-confirm {
+    &.ym-btn-success {
         background-color: $success;
         border-color: $success;
 

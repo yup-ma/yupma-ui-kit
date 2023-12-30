@@ -1,4 +1,14 @@
-# UiKit
+
+# @yupma/ui-kit
+
+- First install the library using `npm i @yupma/ui-kit` or `yarn add @yupma/ui-kit`
+- Now you can have peerDependencies: `@angular/common` `@angular/core` `@yupma/ui-styles`
+- You can check out [@yupma/ui-styles documentation](https://www.npmjs.com/package/@yupma/ui-styles) of how to use it.
+- For basics: `@import '@yupma/ui-styles/lib/scss/yupma_ui'` or `@import '@yupma/ui-styles/lib/dist/index.css'` in your global stylesheet as we will be using its classes and styles.
+- Now in `app.module.ts` add to import statements `YupmaUiKitModule`
+- If you wanted to use services and wanted to use a singleton intance then add `ServicesModule` to import statement from `@yupma/ui-kit`
+
+---
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
@@ -22,3 +32,5 @@ Run `ng test ui-kit` to execute the unit tests via [Karma](https://karma-runner.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+

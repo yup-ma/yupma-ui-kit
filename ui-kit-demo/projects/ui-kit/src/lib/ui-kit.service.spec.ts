@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { UiKitService } from './ui-kit.service';
+import { YupMaUiKitService } from './ui-kit.service';
 
 describe('UiKitService', () => {
-  let service: UiKitService;
+  let service: YupMaUiKitService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(UiKitService);
+    service = TestBed.inject(YupMaUiKitService);
   });
 
   it('should be created', () => {

@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
-import { UiKitComponent } from './ui-kit.component';
+import { YupmaUiKitComponent } from './ui-kit.component';
 import { ButtonComponent, AccordionComponent } from './components';
 
 
 @NgModule({
   declarations: [
-    UiKitComponent,
+    YupmaUiKitComponent,
     ButtonComponent,
     AccordionComponent
   ],
   imports: [
   ],
   exports: [
-    UiKitComponent
+    YupmaUiKitComponent,
+    ButtonComponent,
+    AccordionComponent,
   ]
 })
-export class UiKitModule { }
+export class YupmaUiKitModule { }

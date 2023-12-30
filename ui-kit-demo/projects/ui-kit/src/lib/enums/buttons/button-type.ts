@@ -2,7 +2,7 @@ export enum ButtonType {
     DEFAULT = 'default',
     PRIMARY = 'primary',
     SECONDARY = 'secondary',
-    CONFIRM = 'confirm',
+    SUCCESS = 'success',
     DANGER = 'danger',
     INFO = 'info',
     WARNING = 'warning',

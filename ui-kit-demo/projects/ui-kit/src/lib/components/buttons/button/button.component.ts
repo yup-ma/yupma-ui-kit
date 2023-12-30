@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { ButtonSize, ButtonType } from '../../../enum';
+import { ButtonSize, ButtonType } from '../../../enums';
 
 @Component({
   selector: 'ym-button',
